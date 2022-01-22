@@ -1,0 +1,28 @@
+1. Install git on windows
+2. Create GitHub account
+3. Add SoapUI Project on Git
+4. Add, commit, push Changes
+5. Remove project from Git
+
+Step 1 : Download and Install Git
+
+Step 2 : Create GitHub account
+
+Step 3 : Add SoapUI Project to Git
+ Goto Command Prompt
+ Goto location of SoapUI Project
+ git init
+ git status
+ git add .
+ git commit -m "commit message"
+ git push -u url master
+
+Step 4 : Validate changes are pushed to repository
+
+Step 5 : Remove project from Git
+
+
+References:
+https://git-scm.com/download
+
+https://help.github.com/articles/sett...
