@@ -1,0 +1,36 @@
+Jenkins document
+
+1. How to get Jenkins
+2. How to add SoapUI commands in Jenkins
+3. How to run SoapUI tests from Jenkins
+
+
+Step 1 : Open SoapUI and goto the test case
+
+Step 2 : Right click and select Launch Test Runner
+
+Step 3 : Run from Test Runner and copy the commands
+
+cd C:\Program Files\SmartBear\SoapUI-5.4.0\bin\
+testrunner.bat -sTestSuite1 -cAssertions "C:\Users\Raghav Pal\OneDrive\Projects\SoapUIProjects\REST-Project-1-soapui-project.xml"
+
+
+Step 4 : Get Jenkins on your system
+
+Step 5 : Run jenkins - java -jar jenkins.war --httpPort=xxxx//9090/9292//default 8080
+
+
+Step 6 : Create a new job and add details
+
+Step 7 : Run the job and validate results
+
+
+
+
+References:
+Jenkins download - https://jenkins.io/download/
+
+
+
+cd C:\Program Files\SmartBear\SoapUI-5.4.0\bin\
+testrunner.bat -sTestSuite1 -cAssertions "C:\Users\Raghav Pal\OneDrive\Projects\SoapUIProjects\REST-Project-1-soapui-project.xml"
